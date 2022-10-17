@@ -4,6 +4,8 @@ title: About Me
 permalink: /about
 ---
 
+![alt text](<https://www.google.com.sg/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FImage&psig=AOvVaw1BN2uWxhQkNoYC58WrUJsk&ust=1666105817488000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIDW-fzF5_oCFQAAAAAdAAAAABAE> "Image meta title")
+
 Hi there! I'm Shreya, and I'm a fourth year Data Science & Analytics student at the National University of Singapore. Reaching the very end of my schooling journey, I'm currently on a 6-month internship with GovTech's Data Science and Artifical Intelligence Division. Over the past couple of months, I've been working on consultancy-oriented projects with different branches of the government & public agencies - right now it's the Ministry of Communications & Information. In a nutshell, we mobilise data science to build solutions for our clients in the public sector. Cool stuff!
 
 Over the years, I've forged a solid foundation in Python and R, and am avidly working on building expertise in SQL. I've worked on several projects in data visualisation, machine learning, and have dabbled in deep learning through some really interesting projects in NLP. As my graduation date nears, I've been spending my free time learning more about database systems, model deployment, and web development though I certainly can't say that I'm an expert yet.
