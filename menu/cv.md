@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Contact
+title: Check out my CV! A work in progress
 permalink: /cv
 ---
 
-## Check out my CV! A work in progress :)
 
 
