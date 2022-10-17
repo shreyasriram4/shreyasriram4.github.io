@@ -26,7 +26,7 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'shreya sriramm'
+title:		           'shreya sriram'
 description:	       "a to-be data scientist's personal journey"
 author:              'Shreya Sriram'
 
