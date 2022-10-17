@@ -2,8 +2,10 @@
 layout: page
 title: About Me
 permalink: /about
-image: abt-me-pic.jpg
+image: forest.jpg
 ---
+
+![Alt Text](/assets/img/abt-me-pic.jpg)
 
 Hi there! I'm Shreya, and I'm a fourth year Data Science & Analytics student at the National University of Singapore. Reaching the very end of my schooling journey, I'm currently on a 6-month internship with GovTech's Data Science and Artifical Intelligence Division. Over the past couple of months, I've been working on consultancy-oriented projects with different branches of the government & public agencies - right now it's the Ministry of Communications & Information. In a nutshell, we mobilise data science to build solutions for our clients in the public sector. Cool stuff!
 
