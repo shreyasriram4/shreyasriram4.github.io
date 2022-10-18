@@ -1,42 +1,57 @@
 ---
 layout: post
-title: "Welcome to Lagrange!"
-author: "Paul Le"
+title: "Modelling Employee Attrition"
+author: "Shreya Sriram"
 categories: journal
 tags: [documentation,sample]
 image: mountains.jpg
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+Employee attrition is a major issue in companies all over the world. These days, employees can leave companies just as quickly, if not even quicker, than the pace at which they join them! In this project, I aim to take on the perspective of a firm itself. My goal: How can I minimise employee attrition within my firm?	
+I examine the well-known IBM Employee Attrition dataset (hyperlink) to find characteristics that influence employees' decision to leave their firm. In addition, I develop a model to predict if a given employee will quit based on a range of criteria such as overtime status, age, and so on. This project is part of my undergraduate coursework, titled "DSA3101: Data Science in Practice."
 
-## Getting Started
+### Exploratory Data Analysis
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+As part of my exploration, I looked into whether exploratory variables had any correlation amongst eachother. This started with a correlation plot of numerical variables, using Pearson’s Correlation coefficient. Exploratory variables with correlation > 0.75 were decidedly omitted when within reason. For instance, YearsInCurrentRole, YearsAtCompany, and YearsWithCurrentManager reasonably contained similar information - and their high correlations evinced this! As a result, I removed all except YearsInCurrentRole, which held the highest correlation amongst the three with our target variable - Attrition rate.
 
-## Example Content
+![Alt Text](/assets/img/pearsoncorr.png)
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+Likewise, I looked into a Cramer V Correlation plot with the numerous categorical variables. Only 2 categorical variables - Department and JobRole are highly correlated, at a whopping 0.94. I dropped JobRole, as Department provides a broader category of information on employees.
 
-## Questions?
+Note: For those variables where the p-value of their correlation > 0.05, I deemed their correlation to be insignificant, and imputed their correlation values to 0. That’s why many correlations are set at 0 here, when in reality, their values were probably above 0 but fairly negligible.
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+![Alt Text](/assets/img/cramerv.png)
 
-## More Jekyll!
+If you're interested, you can check out this <a href="[https://www.w3schools.com/](https://public.tableau.com/views/EDAonImportantFactorsofAttrition/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)">Tableau dashboard</a> I built while exploring data.
 
-### Millennial
+### Modelling
 
-Millennial is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for a publication or blog.
+Here comes the exciting part - modelling! The importance of different features to attrition is also highly dependent on the model we choose to employ in predicting attrition. Before modelling, I thought it’d be important to know what I really wanted from my model. Essentially, what were my metrics for success? 
 
-Feel free to check out <a href="https://lenpaul.github.io/Millennial/" target="_blank">the demo</a>, where you’ll also find instructions on <a href="https://lenpaul.github.io/Millennial/documentation/getting-started.html">how to use install</a> and use the theme.
+Right off the bat, I knew that accuracy is not the metric to look at, primarily because of the imbalance in the dataset. A whopping minority of 1 in 6 entries in our training dataset encompassed a positive attrition status. As a result, a high accuracy may not be an indication that the model is performing well - the model may just gravitate strongly towards assigning negative attrition status. This poses high risks of Type 2 Error.
 
-### Portfolio Jekyll Theme
+![Alt Text](/assets/img/imbalance.png)
 
-This is a Jekyll theme built using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). The purpose of this theme is to provide a clean and simple website for your portfolio. Emphasis is placed on your projects, which are shown front and center on the home page.
+I chose to prioritise Recall over metrics like accuracy, because of the importance of pointedly identifying cases of attrition (AttritionStatus = 1). A couple of False Positives (also known as Type 1 error) would be alright, just so long as I succeed in identifying those individuals who are likely to quit. However, too high a Type 1 Error would not be ideal either, which is why I also looked into Precision.
 
-Everything that you will ever need to know about this Jekyll theme is included in [the repository](https://github.com/LeNPaul/portfolio-jekyll-theme), which you can also find in [the demo site](https://lenpaul.github.io/portfolio-jekyll-theme/).
+We used the Random Oversampling approach - which, as the name suggests, randomly oversamples the minority class in a bootstrapped fashion - to deal with the imbalance in our dataset.
+					
+After playing around with all sorts of models, (from K-Nearest Neighbours to Extreme Gradient Boosting Trees), I ended up landing on one of the simplest models out there: a Logistic Regression model.
 
-### Jekyll Starter Kit
+This was for two very simple reasons:
+  1. Logistic regression outperformed most models on recall
+  2. Logistic regression models are highly explainable. In a project where the predominant goal is drawing inferences about the relationships between variables, this proved to be the most meaningful.
 
-The Jekyll Starter Kit is a simple framework for starting your own Jekyll project using all of the best practices that I learned from building my other Jekyll themes.
+![Alt Text](/assets/img/lr_cm.png)
 
-Feel free to check out <a href="https://github.com/LeNPaul/jekyll-starter-kit" target="_blank">the GitHub repository</a>, where you’ll also find instructions on how to use install and use the theme.
+Following hyperparameter tuning, the logistic regression model yielded a recall of 86%, in which it correctly identified 42 out of 49 cases of attrition. Its precision certainly could have been higher, yielding a mere 40%, which means that 6 in 10 cases of attrition were wrongly identified. However - better safe than sorry! Since recall was our priority, this model was satisfactory.
+
+We’re far from done though. After building our model, it was time to identify features significant to attrition.
+
+![Alt Text](/assets/img/oddsratio.png)
+
+The odds ratio, which can be derived from the logistic regression model, tells an explicit story on the importance of certain variables to the likelihood of one leaving the company. We found that working overtime played the most significant role - and by a huge margin. Following that were frequent business travel, and (interestingly) being single.
+
+And there we have it! This was my first end-to-end data science project where I was exposed to the intricacies of deriving insights far beyond modelling. Looking back, I would have looked further into evolving metrics like PR-AUC which strike a balance between Precision and Recall, just so I'd be able to find a meaningful tradeoff between the two. Feel free to share any other thoughts & areas for improvement :)
+
+Till next time!
