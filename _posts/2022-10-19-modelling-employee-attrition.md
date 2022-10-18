@@ -7,7 +7,7 @@ tags: [documentation,sample]
 image: mountains.jpg
 ---
 
-Employee attrition is a major issue in companies all over the world. These days, employees can leave companies just as quickly, if not even quicker, than the pace at which they join them! In this project, I aim to take on the perspective of a firm itself. My goal: How can I minimise employee attrition within my firm?
+Employee attrition is a major issue faced by companies all over the world. These days, employees can leave companies just as quickly, if not even quicker, than the pace at which they join them! In this project, I aim to take on the perspective of a firm itself. My goal: How can I minimise employee attrition within my firm?
 
 I examine the well-known IBM Employee Attrition dataset (hyperlink) to find characteristics that influence employees' decision to leave their firm. In addition, I develop a model to predict if a given employee will quit based on a range of criteria such as overtime status, age, and so on. This project is part of my undergraduate coursework, titled "DSA3101: Data Science in Practice."
 
