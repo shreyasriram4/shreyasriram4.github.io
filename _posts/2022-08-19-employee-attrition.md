@@ -4,7 +4,7 @@ title: "Modelling Employee Attrition"
 author: "Shreya Sriram"
 categories: journal
 tags: [documentation,sample]
-image: mountains.jpg
+image: employees.jpeg
 ---
 
 Employee attrition is a major issue faced by companies all over the world. These days, employees can leave companies just as quickly, if not even quicker, than the pace at which they join them! In this project, I aim to take on the perspective of a firm itself. My goal: How can I minimise employee attrition within my firm?
@@ -32,6 +32,7 @@ Here comes the exciting part - modelling! The importance of different features t
 Right off the bat, I knew that accuracy is not the metric to look at, primarily because of the imbalance in the dataset. A whopping minority of 1 in 6 entries in our training dataset encompassed a positive attrition status. As a result, a high accuracy may not be an indication that the model is performing well - the model may just gravitate strongly towards assigning negative attrition status. This poses high risks of Type 2 Error.
 
 ![Alt Text](/assets/img/imbalance.png)
+<img src="/assets/img/imbalance.png" alt="imbalance" width="200"/>
 
 I chose to prioritise Recall over metrics like accuracy, because of the importance of pointedly identifying cases of attrition (AttritionStatus = 1). A couple of False Positives (also known as Type 1 error) would be alright, just so long as I succeed in identifying those individuals who are likely to quit. However, too high a Type 1 Error would not be ideal either, which is why I also looked into Precision.
 
