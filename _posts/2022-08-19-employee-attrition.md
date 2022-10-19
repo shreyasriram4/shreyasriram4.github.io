@@ -31,7 +31,11 @@ Here comes the exciting part - modelling! The importance of different features t
 
 Right off the bat, I knew that accuracy is not the metric to look at, primarily because of the imbalance in the dataset. A whopping minority of 1 in 6 entries in our training dataset encompassed a positive attrition status. As a result, a high accuracy may not be an indication that the model is performing well - the model may just gravitate strongly towards assigning negative attrition status. This poses high risks of Type 2 Error.
 
-<img src="/assets/img/imbalance.png" alt="imbalance" width="400" class="center"/>
+<div style="text-align: center;">
+	
+<img src="/assets/img/imbalance.png" alt="imbalance" width="400"/>
+
+</div>
 
 I chose to prioritise Recall over metrics like accuracy, because of the importance of pointedly identifying cases of attrition (AttritionStatus = 1). A couple of False Positives (also known as Type 1 error) would be alright, just so long as I succeed in identifying those individuals who are likely to quit. However, too high a Type 1 Error would not be ideal either, which is why I also looked into Precision.
 
@@ -47,7 +51,11 @@ This was for two very simple reasons:
 
 ### Model Performance
 
-<img src="/assets/img/lr_cm.png" alt="cm" class="center"/>
+<div style="text-align: center;">
+	
+<img src="/assets/img/lr_cm.png" alt="cm" width="300"/>
+
+</div>
 
 Following hyperparameter tuning, the logistic regression model yielded a recall of 86%, in which it correctly identified 42 out of 49 cases of attrition. Its precision certainly could have been higher, yielding a mere 40%, which means that 6 in 10 cases of attrition were wrongly identified. However - better safe than sorry! Since recall was our priority, this model was satisfactory.
 
