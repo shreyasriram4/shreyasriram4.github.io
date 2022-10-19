@@ -47,7 +47,7 @@ This was for two very simple reasons:
 
 ### Model Performance
 
-<img src="/assets/img/lr_cm.png" alt="cm" width="300" class="center"/>
+<img src="/assets/img/lr_cm.png" alt="cm" class="center"/>
 
 Following hyperparameter tuning, the logistic regression model yielded a recall of 86%, in which it correctly identified 42 out of 49 cases of attrition. Its precision certainly could have been higher, yielding a mere 40%, which means that 6 in 10 cases of attrition were wrongly identified. However - better safe than sorry! Since recall was our priority, this model was satisfactory.
 
