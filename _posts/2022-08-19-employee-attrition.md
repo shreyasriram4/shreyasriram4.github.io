@@ -4,7 +4,7 @@ title: "Modelling Employee Attrition"
 author: "Shreya Sriram"
 categories: journal
 tags: [documentation,sample]
-image: employees.png
+image: employees.jpeg
 ---
 
 Employee attrition is a major issue faced by companies all over the world. These days, employees can leave companies just as quickly, if not even quicker, than the pace at which they join them! In this project, I aim to take on the perspective of a firm itself. My goal: How can I minimise employee attrition within my firm?
