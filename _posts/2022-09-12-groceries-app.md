@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Text Formatting Examples"
-author: "Paul Le"
+title: "What The Food: Grocery Personalisation App"
+author: "Shreya Sriram"
 categories: journal
 tags: [documentation,sample]
 image: food.png
