@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 permalink: /about
+image: abt-me-pic.jpg
 ---
 
 ![Alt Text](/assets/img/abt-me-pic.jpg)
