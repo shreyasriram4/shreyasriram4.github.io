@@ -7,7 +7,7 @@ tags: [documentation,sample]
 image: dna.png
 ---
 
-Did you know that humans share about 60% of our DNA with bananas? This was by far my favourite takeaway from a class I took in university on data science in genomics. As part of the class, my team worked on predicting m6A modifications on human cancer cell lines. Namely - liver, bone marrow, colon, lung and breast cancer cell lines. Our model was built against a massive dataset (props to anyone in bioinformatics - really an intimidating amount of data) of long read RNA sequences consisting of transcripts from a colon cancer cell line.
+Did you know that humans share about 60% of our DNA with bananas? This was by far my favourite takeaway from a class I took in university on data science in genomics. My team worked on predicting m6A modifications on human cancer cell lines. Namely - liver, bone marrow, colon, lung and breast cancer cell lines. Our model was built against a massive dataset (props to anyone in bioinformatics - really an intimidating amount of data) of long read RNA sequences consisting of transcripts from a colon cancer cell line.
 
 Heads up: I'm by no means an expert in biology or DNA (this was my first exposure to it in almost a decade) so let me know if I've got any facts mixed up!
 
