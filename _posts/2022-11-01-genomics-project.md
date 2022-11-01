@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Genomic Data"
+title: "Data Science and DNA"
 author: "Shreya Sriram"
 categories: journal
 tags: [documentation,sample]
