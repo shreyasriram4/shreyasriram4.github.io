@@ -63,4 +63,6 @@ This could suggest that our model may need more training data across different t
 
 With a correlation of 0.55 (excluding that one outlying point of K562 - the bone marrow cell line), there's a notable positive correlation between the number of distinct overlapping transcripts that the newly predicted dataset has with the training Hct116 dataset, and the rate of m6A modifications predicted. Perhaps, in future, larger variety of tissues for training would make a huge difference in preparing the model to extrapolate across tissues.
 
-That's all folks! Thanks for reading all the way and feel free to share any thoughts down below :)
+## Parting Thoughts
+
+That's all folks! This project was a tough one. Data abound, catching onto domain knowledge was the toughest part of this whole experience. If I could do this again one day, I'd consider tapping into Neural Networks, since they could probably engineer some interesting features independently. Sadly I'm still pretty new to NNs (what do you really do besides pooling layers on top of eachother? I'm at a loss) so let's save that for the next journey! Thanks for reading all the way and feel free to share any thoughts down below :)
