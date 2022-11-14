@@ -84,7 +84,7 @@ My work in the Quantitative Strategy team helped me face and (gradually) overcom
 
 ## My...Future?
 
-In university, I learned fairly early that I want to be a Data Scientist. I loved working in an interdisciplinary field at the intersection of computing, business, and storytelling. However, I never really knew what kind of industry I wanted to contribute my efforts to.
+In university, I learned fairly early that I want to be a Data Scientist. I loved working in an interdisciplinary field amalgamating computing, business, and storytelling. However, I never really knew what kind of industry I wanted to contribute my efforts to.
 
 Having spent 5 months working at the intersection of consulting, the public sector, and data science, I can confidently and genuinely say that I hope to continue along this interdisciplinary trajectory.
 
