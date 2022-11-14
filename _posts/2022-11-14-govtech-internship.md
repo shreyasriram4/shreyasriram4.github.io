@@ -11,6 +11,8 @@ Singapore’s journey towards a digital government commenced in the 1980s, with 
 
 ![Alt Text](/assets/img/timeline.png)
 
+## The Heart of Singapore's Digital Transformation
+
 Responsible for the delivery of Singapore’s digital services to the public, GovTech plays a vital role in materialising Singapore’s Smart Nation vision. Its work can be classified into 3 distinct fields: “Products”, “Services”, and “Cybersecurity & Governance”.
 
 The Services and Cybersecurity teams focus on managing technology across government agencies, and ensuring safety and security of government digital structures respectively. Meanwhile, the Products team manages a wider framework of responsibilities - ranging from spearheading Strategic National Projects to managing Whole of Government digital infrastructure. As part of the Data Science and Artificial Intelligence Division (DSAID), I work under the Products team!
