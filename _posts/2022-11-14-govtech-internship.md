@@ -9,17 +9,17 @@ image: lanterns.jpeg
 
 Singapore’s journey towards a digital government commenced in the 1980s, with the establishment of the five-year National Computerisation Plan. Ever since, the nation has seen remarkable progress in conceptualising new visions for its digitalisation. In October 2016, this amounted to the founding of the Government Technology Agency, or GovTech. 
 
-![Alt Text](/assets/img/govtech-logo.png)
+![Alt Text](/assets/img/timeline.png)
 
 Responsible for the delivery of Singapore’s digital services to the public, GovTech plays a vital role in materialising Singapore’s Smart Nation vision. Its work can be classified into 3 distinct fields: “Products”, “Services”, and “Cybersecurity & Governance”.
 
 The Services and Cybersecurity teams focus on managing technology across government agencies, and ensuring safety and security of government digital structures respectively. Meanwhile, the Products team manages a wider framework of responsibilities - ranging from spearheading Strategic National Projects to managing Whole of Government digital infrastructure. As part of the Data Science and Artificial Intelligence Division (DSAID), I work under the Products team!
 
+![Alt Text](/assets/img/govtech-logo.png)
+
 ## DSAID
 
 DSAID has worked on all sorts of cool projects - from using AI-based video analytics to identify mosquito larval species, to leveraging BERT language models in building “Ask Jamie”, the memorable virtual assistant implemented across government agencies’ websites. With strength in numbers, DSAID harnesses its team of almost 200 talents to empower data in realising Singapore’s visions of becoming a smart nation.
-
-![Alt Text](/assets/img/dsaid-logo.png)
 
 That being said, I worked as a Data Scientist Intern in a team within DSAID that works at the intersection of data science and consultancy - the Quantitative Strategy team.
 
