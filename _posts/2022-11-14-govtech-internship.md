@@ -68,7 +68,7 @@ The hardest part for me, without a doubt, was attempting to write & understand c
 
 I also learned the value of writing explicit documentation and version control using Git. As pointless as it may feel when you're committing changes to your repository after changing a mere single line in your code - believe me when I say you'll thank yourself for it later. Likewise for writing documentation - it's a drag but it's worth it.
 
-## Business Wisdom #1: As Agile As A Monkey
+## Business Wisdom #1: Agile
 
 Agile is an iterative approach to project management and product development that helps teams deliver value to their customers faster by being responsive to changes. In consultancy, this necessitates a keen user-feedback loop with one’s client - whether through regular prototype demonstrations or user testing opportunities. GovTech prides itself on upholding an Agile developmental framework as one of its core values.
 
