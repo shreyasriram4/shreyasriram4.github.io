@@ -98,7 +98,7 @@ I loved learning about my colleagues’ work - from modelling students’ academ
 
 Working with agencies with limited resources for in-house technological advancement was extremely meaningful. I was proud to play a role in the digital transformation of our public sector clients.
 
-Ultimately, my time at GovTech inspired my interest in working in the coalescence of data and clients, on projects targeting social impact. Of course, the road ahead is rocky and will be filled with twists and turns - and I'm excited to see what's next in my journey towards professional growth.
+Of course, the road ahead is rocky and will be filled with twists and turns - and I'm excited to see what's next in my journey towards professional growth.
 
 ## Parting Thoughts
 
