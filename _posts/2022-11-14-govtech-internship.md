@@ -15,7 +15,12 @@ Responsible for the delivery of Singapore’s digital services to the public, Go
 
 The Services and Cybersecurity teams focus on managing technology across government agencies, and ensuring safety and security of government digital structures respectively. Meanwhile, the Products team manages a wider framework of responsibilities - ranging from spearheading Strategic National Projects to managing Whole of Government digital infrastructure. As part of the Data Science and Artificial Intelligence Division (DSAID), I work under the Products team!
 
-![Alt Text](/assets/img/govtech-logo.png)
+<div style="text-align: center;">
+	
+<img src="/assets/img/govtech-logo.png" alt ="logo" width="300"/>
+
+</div>
+
 
 ## DSAID
 
@@ -53,7 +58,11 @@ Moving forward, I'm hoping to work more closely with the prologue and epilogue o
 
 In no way did I expect one of my major takeaways from my internship as a “Data Scientist Intern” to be in Software Engineering. Nonetheless, my experiences in building models for production taught me the importance of writing optimised, reproducible and modular code.
 
-![Alt Text](/assets/img/software-eng.png)
+<div style="text-align: center;">
+	
+<img src="/assets/img/software-eng.png" alt ="alt" width="300"/>
+
+</div>
 
 The hardest part for me, without a doubt, was attempting to write & understand code written in Object-Oriented Programming (OOP). I don't know what it is about OOP, but it is my absolute worst nightmare. I spent hours trying to reconcile differences between abstraction and inheritance, and place distinctions between class functions & static functions. I'm still no expert at OOP - but I'm working on it!
 
@@ -63,7 +72,11 @@ I also learned the value of writing explicit documentation and version control u
 
 Agile is an iterative approach to project management and product development that helps teams deliver value to their customers faster by being responsive to changes. In consultancy, this necessitates a keen user-feedback loop with one’s client - whether through regular prototype demonstrations or user testing opportunities. GovTech prides itself on upholding an Agile developmental framework as one of its core values.
 
-![Alt Text](/assets/img/agile.png)
+<div style="text-align: center;">
+	
+<img src="/assets/img/agile.png" alt ="alt" width="300"/>
+
+</div>
 
 On a personal level, I initially had difficulties grasping the concept of an ‘Agile’ approach. I have always been one to favour the big picture - and often feel the need to see the vision for a project that I embark on. While this is usually a strength that allows me to closely tune myself to the requirements of a project, it can be a weakness at times as well. It renders me anxious and overwhelmed when I am unable to see a clear direction as to where the project is headed. This is not the best trait to have when in the field of Data Science - a field that is fraught with uncertainty, and depends entirely on continuous developments in how the analysis or modelling of a particular dataset is progressing.
 
@@ -75,7 +88,11 @@ In university, I learned fairly early that I want to be a Data Scientist. I love
 
 Having spent 5 months working at the intersection of consulting, the public sector, and data science, I can confidently and genuinely say that I hope to continue along this interdisciplinary trajectory.
 
-![Alt Text](/assets/img/goals.png)
+<div style="text-align: center;">
+	
+<img src="/assets/img/goals.png" alt ="alt" width="300"/>
+
+</div>
 
 I loved learning about my colleagues’ work - from modelling students’ academic performances to identify and help low-performing students, to visualising Singapore’s efforts in combating climate change. It nurtured my excitement in collaborating with various public agencies on diverse use cases - from labour policies to urban technology - on projects targeting social impact.
 
