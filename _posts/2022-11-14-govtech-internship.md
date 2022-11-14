@@ -4,7 +4,7 @@ title: "My 6 Months at GovTech"
 author: "Shreya Sriram"
 categories: journal
 tags: [documentation,sample]
-image: lanterns.jpeg
+image: smartnation.jpeg
 ---
 
 Singapore’s journey towards a digital government commenced in the 1980s, with the establishment of the five-year National Computerisation Plan. Ever since, the nation has seen remarkable progress in conceptualising new visions for its digitalisation. In October 2016, this amounted to the founding of the Government Technology Agency, or GovTech. 
