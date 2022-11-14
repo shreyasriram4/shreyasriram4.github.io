@@ -104,7 +104,7 @@ Ultimately, my time at GovTech inspired my interest in working in the coalescenc
 
 ## Parting Thoughts
 
-That's all from me! In all seriousness, I've learned a lot of myself these past couple of months. I'm grateful to GovTech for its unconscious contributions towards my ongoing journey towards self-discovery. On to the next journey!
+That's all from me! In all seriousness, I've learned a lot about myself these past couple of months. I'm grateful to GovTech for its unconscious contributions towards my ongoing journey towards self-discovery. On to the next journey!
 
 
 
