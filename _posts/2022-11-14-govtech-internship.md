@@ -66,7 +66,7 @@ In no way did I expect one of my major takeaways from my internship as a “Data
 
 </div>
 
-The hardest part for me, without a doubt, was attempting to write & understand code written in Object-Oriented Programming (OOP). I don't know what it is about OOP, but it is my worst nightmare. I spent hours trying to reconcile differences between abstraction and inheritance, and place distinctions between class functions & static functions. I'm still no expert at OOP - but I'm working on it!
+The hardest part for me, without a doubt, was attempting to write & understand code written in Object-Oriented Programming (OOP). I don't know what it is about OOP, but it is my Achilles' heel. At GovTech, I spent hours trying to reconcile differences between abstraction and inheritance, and place distinctions between class functions & static functions. I'm still no expert at OOP - but I'm working on it!
 
 I also learned the value of writing explicit documentation and version control using Git. As pointless as it may feel when you're committing changes to your repository after changing a mere single line in your code - believe me when I say you'll thank yourself for it later. Likewise for writing documentation - it's a drag but it's worth it.
 
