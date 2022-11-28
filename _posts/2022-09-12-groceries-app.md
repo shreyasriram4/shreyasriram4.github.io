@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "What The Food: Grocery Personalisation App"
+title: "Grocery Personalisation App"
 author: "Shreya Sriram"
 categories: journal
 tags: [documentation,sample]
 image: food.png
 ---
 
-Work in progress
+Work in progress! Will be completed when I have more time :)
