@@ -13,7 +13,7 @@ const Footer = () => {
 							<Link to="https://github.com/shreyasriram4">GitHub</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="www.linkedin.com/in/shreyasriram4">LinkedIn</Link>
+							<Link to="https://linkedin.com/in/shreyasriram4">LinkedIn</Link>
 						</li>
 						<li className="footer-nav-link-item">
 							<a href="mailto:shreyasriram4@gmail.com">Email</a>

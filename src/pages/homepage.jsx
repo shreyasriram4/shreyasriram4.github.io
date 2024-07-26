@@ -22,7 +22,7 @@ import "./styles/homepage.css";
 
 const Homepage = () => {
     const [stayLogo, setStayLogo] = useState(false);
-    const [logoSize, setLogoSize] = useState(250);
+    const [logoSize, setLogoSize] = useState(400);
     const [oldLogoSize, setOldLogoSize] = useState(80);
 
     useEffect(() => {
