@@ -30,13 +30,13 @@
 
 .article-date {
 	padding-top: 30px;
-	font-size: 15px;
+	font-size: 11px;
 	color: var(--tertiary-color);
 }
 
 .article-title {
 	color: #000000;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
 }
 
@@ -50,7 +50,7 @@
 
 .article-link {
 	padding-top: 10px;
-	font-size: 14px;
+	font-size: 13px;
 	color: var(--link-color);
 	font-weight: 700;
 }

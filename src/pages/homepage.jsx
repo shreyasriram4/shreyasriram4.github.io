@@ -22,7 +22,7 @@ import "./styles/homepage.css";
 
 const Homepage = () => {
     const [stayLogo, setStayLogo] = useState(false);
-    const [logoSize, setLogoSize] = useState(100);
+    const [logoSize, setLogoSize] = useState(250);
     const [oldLogoSize, setOldLogoSize] = useState(80);
 
     useEffect(() => {
@@ -55,7 +55,7 @@ const Homepage = () => {
     const currentSEO = SEO.find((item) => item.page === "home");
 
     const logoStyle = {
-        left: '450px',
+        left: '200px',
         display: "flex",
         position: stayLogo ? "fixed" : "relative",
         top: stayLogo ? "3vh" : "auto",
@@ -119,7 +119,7 @@ const Homepage = () => {
                 </header>
                 <div className="homepage-logo-container">
 						<div style={logoStyle}>
-							<Logo width={100} link={false} />
+							<Logo width={logoSize} link={false} />
 						</div>
 					</div>
                     <div className="homepage-container">
