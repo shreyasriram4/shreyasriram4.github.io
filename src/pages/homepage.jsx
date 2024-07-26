@@ -55,7 +55,7 @@ const Homepage = () => {
     const currentSEO = SEO.find((item) => item.page === "home");
 
     const logoStyle = {
-        left: '200px',
+        left: '100px',
         display: "flex",
         position: stayLogo ? "fixed" : "relative",
         top: stayLogo ? "3vh" : "auto",
