@@ -40,7 +40,7 @@ const workDescriptions = [
         title: 'HP',
         subtitle: 'Data Science Intern',
         duration: 'January 2023 - May 2023',
-		description: "Orchestrated end-to-end development and deployment of a Python and SQL data analytics module, streamlining the ETL processes from HP's data warehouse and enabling automated statistical analysis in ink manufacturing. This project, managed using agile methodologies, facilitated rapid development and effective communication with engineers and senior executives. Module saves company tens of thousands of man-hours by querying relevant data from databases, aggregating data into statistics and compiling metrics into data visualization dashboards and monthly reports for data-driven decision-making."
+		description: "Orchestrated end-to-end development and deployment of a Python and SQL data analytics module, streamlining the ETL processes from HP's data warehouse and enabling automated statistical analysis in ink manufacturing. This module saves company tens of thousands of man-hours by querying relevant data from databases, aggregating data into statistics and compiling metrics into data visualization dashboards and monthly reports for data-driven decision-making."
     },
     {
         image: govtechIcon,
@@ -94,7 +94,10 @@ const Works = () => {
                                 <div className="work-title">{work.title}</div>
                                 <div className="work-subtitle">{work.subtitle}</div>
                                 <div className="work-duration">{work.duration}</div>
+                                
                                 <div className="work-desc">{work.description}</div>
+                                <div className='work-read-more'>Read more...</div>
+
                             </div>
                         </div>
                     ))}
@@ -105,7 +108,7 @@ const Works = () => {
                 <h2 className="section-title">
                     <FontAwesomeIcon icon={faBookOpen} />
                 </h2>
-                <div className="works-body">
+                <div className="edu-body">
                     {educationDescriptions.map((edu, index) => (
                         <div className="work" key={index}>
                             <img src={edu.image} alt={edu.title} className="work-image" />
@@ -113,7 +116,9 @@ const Works = () => {
                                 <div className="work-title">{edu.title}</div>
                                 <div className="work-subtitle">{edu.subtitle}</div>
                                 <div className="work-duration">{edu.duration}</div>
+                                
                                 <div className="work-desc">{edu.description}</div>
+                                <div className='work-read-more'>Read more...</div>
                             </div>
                         </div>
                     ))}

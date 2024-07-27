@@ -1,90 +1,120 @@
 .works-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+    gap: 30px; /* Space between cards */
+    width: 100%; /* Adjust if necessary */
+    padding: 20px; /* Padding around the grid */
+    box-sizing: border-box; /* Includes padding in width calculation */
 }
 
 .work {
+    position: relative; /* Needed for positioning the read more absolutely */
     display: flex;
+    flex-direction: column; /* Stack elements vertically */
     align-items: center;
-    background-color: #f0f4f8;
+    background-color: #3589e230;
     border-radius: 10px;
-    padding: 30px;
-    margin-bottom: 30px;
-    width: 100%;
+    padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer; /* Indicates the card is interactive */
+    overflow: hidden; /* Keeps the description within the card */
 }
 
 .works-body:hover .work:not(:hover) {
-    filter: blur(1.5px); /* Apply blur to all non-hovered .work items */
+    filter: blur(2px); /* Apply blur to all non-hovered .work items */
 }
 
 .work:hover {
-    background-color: #d3e6f6;
-    transform: scale(1.02);
+    background-color: #c6e3f196;
+    transform: scale(1.05);
     filter: none; /* No blur on the hovered item */
-    z-index: 1; /* Ensure hovered item is above others */
+    z-index: 10; /* Ensure hovered item is above others */
 }
 
 .work-image {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
-    margin-right: 20px;
-    align-self: flex-start;
+    margin-bottom: 15px; /* Space between image and text */
 }
 
 .work-details {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    text-align: center; /* Centers the text within the card */
 }
 
-.work-header {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    width: 100%;
+.work-header, .work-title, .work-subtitle, .work-duration {
+    width: 100%; /* Ensures text lines span the full width of the card */
 }
 
 .work-title {
-    font-size: 15px;
+    font-size: 18px; /* Slightly larger for emphasis */
     font-weight: 700;
     color: var(--primary-color);
 }
 
-.work-subtitle, .work-duration {
-    font-size: 13px;
+.work-subtitle {
+    font-size: 14px; /* Consistent font size for subtitle and duration */
     color: var(--secondary-color);
+    margin-top: 5px;
+}
+
+.work-read-more {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: var(--primary-color);
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.7; /* Always visible unless hovered */
+}
+
+.work:hover .work-read-more {
+    opacity: 0; /* Hide on card hover */
 }
 
 .work-duration {
-    align-self: flex-end;
-    margin-left: auto;
+    font-size: 12px; /* Consistent font size for subtitle and duration */
+    color: #454e56d6;
+    margin-top: 5px;
+}
+
+.work-duration {
+    margin-top: 10px; /* Additional spacing from subtitle to duration */
 }
 
 .work-desc {
-    font-size: 12px;
-    color: rgba(0, 0, 0, 0.59);
     max-height: 0;
     opacity: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    font-size: 12px; /* Readable font size for description */
+    color: var(--primary-color);
+    padding: 10px; /* Padding inside the description */
 }
 
 .work:hover .work-desc {
-    max-height: 200px;
+    max-height: 250px; /* Sufficient space to expand description */
     opacity: 1;
-    padding-top: 10px;
 }
 
 .section-title {
     display: flex;
-    align-items: center;
     justify-content: center;
-    color: var(--tertiary-color);
-    margin-bottom: 20px;
-    font-size: 40px;
+    align-items: center;
+    color: #4b91dcb0;
+    margin-bottom: 30px;
+    font-size: 50px; /* More moderate size for section titles */
+}
+
+.edu-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates three columns */
+    gap: 30px; /* Space between cards */
+    width: 100%; /* Adjust if necessary */
+    padding: 20px; /* Padding around the grid */
+    box-sizing: border-box; /* Includes padding in width calculation */
 }

@@ -7,7 +7,7 @@
     justify-content: left;
     align-items: center;
     padding-top: 80px;
-    background-color: #0b405e0f;
+    background-color: #3589e230;
 }
 
 /* Homepage Header */
@@ -231,13 +231,13 @@
 }
 
 .content-wrapper-works {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 
 }
 
 #about {
-    background-color: #0b405e0f; /* White */
+    background-color: #3589e230; /* White */
     /* padding-left: 700px;
     padding-right: 700px; */
 }
@@ -249,7 +249,7 @@
 }
 
 #projects {
-    background-color: #0b405e0f; /* White again for contrast */
+    background-color: #3589e230; /* White again for contrast */
     /* padding-left: 700px;
     padding-right: 700px; */
 }
@@ -261,7 +261,7 @@
 }
 
 #articles {
-    background-color: #0b405e0f; /* White */
+    background-color: #3589e230; /* White */
     /* padding-left: 700px;
     padding-right: 700px; */
 }

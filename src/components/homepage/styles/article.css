@@ -24,7 +24,7 @@
 }
 
 .homepage-article:hover {
-    background: #fafafa;
+    background: #c9dcfdaf;
     opacity: 1;
     transition: background-color 0.3s, opacity 0.3s ease-in-out;
 }
@@ -37,7 +37,7 @@
 }
 
 .homepage-article-date {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     font-size: 12px;
     margin-bottom: 1em;
 }
