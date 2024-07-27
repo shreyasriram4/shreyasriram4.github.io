@@ -118,3 +118,7 @@
     padding: 20px; /* Padding around the grid */
     box-sizing: border-box; /* Includes padding in width calculation */
 }
+
+.edu-body:hover .work:not(:hover) {
+    filter: blur(2px); /* Apply blur to all non-hovered .work items */
+}
