@@ -76,13 +76,10 @@ const educationDescriptions = [
 ];
 
 const Works = () => {
-    useEffect(() => {
-        AOS.init({ duration: 1200 });
-    }, []);
 
     return (
         <div>
-            <div className="works" data-aos="fade-in">
+            <div className="works">
                 <h2 className="section-title">
                     <FontAwesomeIcon icon={faBriefcase} />
                 </h2>

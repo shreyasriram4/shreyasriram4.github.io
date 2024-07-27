@@ -15,7 +15,7 @@ import "./styles/about.css";
 const About = () => {
     useEffect(() => {
         AOS.init({
-            duration: 1200, // Animation duration in milliseconds
+            duration: 200, // Animation duration in milliseconds
         });
     }, []);
 

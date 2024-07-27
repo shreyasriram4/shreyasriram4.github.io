@@ -133,7 +133,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     </div>
-                    <div className='section' id='works'>
+                    <div className='section' id='works' data-aos='fade-in'>
                     <div className="content-wrapper-works">
 					<div className="title homepage-works-title">
                         {"My Experiences"}
