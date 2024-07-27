@@ -21,7 +21,7 @@ const About = () => {
 
     // Split the description into paragraphs
     const paragraphs = INFO.about.description.split('\n').map((para, index) => (
-        <p key={index} className="paragraph-indent" data-aos="fade-in">
+        <p key={index} className="paragraph-indent">
             {para.trim()}
         </p>
     ));
@@ -38,7 +38,7 @@ const About = () => {
                 </div>
 
                 <div className="about-left-side">
-                    <div className="about-image-container" data-aos="fade-in">
+                    <div className="about-image-container">
                         <div className="about-image-wrapper">
                             <img
                                 src={aboutImg}
