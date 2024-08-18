@@ -1,10 +1,12 @@
 :root {
 	/* ------- colors ------- */
-	--primary-color: #4c748c;
-	--secondary-color: #21253d;
-	--tertiary-color: #bebcb7;
+	--primary-color: #ffffff;
+	--secondary-color: #cedff9;
+	--tertiary-color: #A3C9F1;
 	--quaternary-color: #838c49;
-	--link-color: #4c748c;
+	--link-color: #cea7ff;
+	--background-color: #021b72c2;
+	--hover-color: #587bb7af;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */

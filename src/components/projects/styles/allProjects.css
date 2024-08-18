@@ -1,31 +1,70 @@
+.all-projects-container {
+    position: relative;
+    width: 66.67%; /* Occupies 2/3 of the screen for laptop size */
+    margin: 0 auto; /* Center the container */
+    padding: 0 0px; /* Add padding to give some space inside the container */
+}
 
 .all-projects-container .slick-arrow:before {
-    color: #26527c; /* A soft gray that blends well */
+    color: #ffffff;
     transition: color 0.3s ease;
-	font-size: 50px; /* Bigger arrow icons */
-	left: 50px; /* Adjust this value as needed */
-    transform: translateY(-50%);
-	opacity: 0.5
+    font-size: 50px;
+    opacity: 0.5;
 }
 
 .all-projects-container .slick-prev {
-    left: -100px; /* Adjust this value as needed */
+    left: -60px; /* Position arrow just outside the left edge of the container */
+    z-index: 1;
     transform: translateY(-50%);
 }
 
 .all-projects-container .slick-next {
-    right: -100px; /* Adjust this value as needed */
+    right: -60px; /* Position arrow just outside the right edge of the container */
+    z-index: 1;
     transform: translateY(-50%);
 }
 
-/* .all-projects-container .slick-arrow:next {
-	color: #26527c;
-	transition: color 0.3s ease;
-	font-size: 50px;
-} */
 
-.all-projects-container .slick-arrow:hover {
-    color: #555555; /* A darker gray for better visibility on hover */
+.project {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
+/* For iPad size (e.g., in between laptop and phone size) */
+@media (max-width: 1024px) {
+    .all-projects-container {
+        width: 70%;
+    }
+
+    .slick-slide > div {
+        padding: 0 10px;
+    }
+
+    .all-projects-container .slick-prev {
+        left: -40px;
+    }
+
+    .all-projects-container .slick-next {
+        right: -40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .all-projects-container {
+        width: 80%;
+    }
+
+    .slick-slide > div {
+        padding: 10 10px;
+    }
+
+    .all-projects-container .slick-prev {
+        left: -30px;
+    }
+
+    .all-projects-container .slick-next {
+        right: -10px;
+    }
+}
 

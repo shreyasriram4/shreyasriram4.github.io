@@ -5,7 +5,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import mghIcon from '../../images/mgh.png';
 import cornellIcon from '../../images/cornell.png';
-import mixIcon from '../../images/urbanmix.png';
 import hpIcon from '../../images/hp.png';
 import govtechIcon from '../../images/govtech.png';
 import crescoIcon from '../../images/cresco.png';
@@ -19,7 +18,7 @@ const workDescriptions = [
         title: 'Massachusetts General Hospital',
         subtitle: 'Data Science Intern',
         duration: 'June 2024 - Present',
-		description: 'Pioneered the development of stability metrics for machine learning models in clinical settings, particularly radiology. Led empirical experimentation with hundreds of models, and formulated and proved mathematical hypotheses, leveraging a deep theoretical knowledge of machine learning.'
+		description: 'Pioneered the development of stability metrics for machine learning models in clinical settings, particularly radiology. Led empirical experimentation with hundreds of models, and formulated and proved mathematical hypotheses.'
     },
     {
         image: cornellIcon,
@@ -29,32 +28,25 @@ const workDescriptions = [
 		description: 'Implemented Natural Language Processing and Geospatial Data Analytics using Python, QGIS and Tableau to analyze NYC census and 311 data, exploring trends in gentrification through interactive data visualizations.'
     },
     {
-        image: mixIcon,
-        title: 'UrbanMix',
-        subtitle: 'Data Analyst Intern',
-        duration: 'October 2023 - December 2023',
-		description: 'Spearheaded development of interactive Python data visualization dashboards integrating Machine Learning, Statistics, & Data Analytics to translate complex property data into over 10 actionable insights, catalyzing $20,000 boost in annual profits for real estate clients.'
-    },
-    {
         image: hpIcon,
         title: 'HP',
         subtitle: 'Data Science Intern',
         duration: 'January 2023 - May 2023',
-		description: "Orchestrated end-to-end development and deployment of a Python and SQL data analytics module, streamlining the ETL processes from HP's data warehouse and enabling automated statistical analysis in ink manufacturing. This module saves company tens of thousands of man-hours by querying relevant data from databases, aggregating data into statistics and compiling metrics into data visualization dashboards and monthly reports for data-driven decision-making."
+		description: "Orchestrated end-to-end development and deployment of a Python and SQL data analytics module to automate statistical analysis in ink manufacturing. This module saves company tens of thousands of man-hours in building dashboards for data-driven decision-making."
     },
     {
         image: govtechIcon,
         title: 'GovTech Singapore',
         subtitle: 'Data Science Intern',
         duration: 'July 2022 - December 2022',
-		description: "Pioneered, built and launched a web application that harnessed Python, with advanced Machine Learning & transformer Natural Language Processing algorithms, to cluster and rank news articles with a classification accuracy of up to 90%. Streamlit-based web application is used daily by Ministry of Communications & Information to speed up top news identification by 30 minutes a day."
+		description: "Pioneered, built and launched a web application that harnessed transformer Natural Language Processing algorithms to cluster and rank news articles with a classification accuracy of up to 90%. Web application speeds up clients' top news identification by 30 minutes a day."
     },
     {
         image: crescoIcon,
         title: 'CrescoData',
         subtitle: 'Data Science Intern',
         duration: 'March 2021 - July 2021',
-		description: 'Leveraged Natural Language Processing to independently build a Machine Learning model that automates categorization of products using Python and R. Model saves clients hundreds of hours in categorizing products with an accuracy of 75%.'
+		description: 'Leveraged Natural Language Processing to independently build a Machine Learning model that automates categorization of products using Python. Model saves clients hundreds of hours in categorizing products with an accuracy of 75%.'
     }
 ];
 

@@ -125,7 +125,7 @@ const Homepage = () => {
                     <div className="homepage-container">
                     <div className="section" id='about'>
                     <div className="content-wrapper">
-					<div className="title about-title">
+					<div className="title-light about-title">
                         {INFO.about.title}
                     </div>
                         <div className="about">
@@ -135,7 +135,7 @@ const Homepage = () => {
                     </div>
                     <div className='section' id='works' data-aos='fade-in'>
                     <div className="content-wrapper-works">
-					<div className="title homepage-works-title">
+					<div className="title-dark homepage-works-title">
                         {"My Experiences"}
                     </div>
                         <div className="homepage-works">
@@ -146,7 +146,7 @@ const Homepage = () => {
                     
                     <div className="homepage-projects" id='projects' data-aos='fade-in'>
                         <div className="content-wrapper">
-					<div className="title homepage-projects-title">
+					<div className="title-light homepage-projects-title">
                             My Projects
                         </div>
 
@@ -156,7 +156,7 @@ const Homepage = () => {
 
 					<div className="homepage-skills" id='skills' data-aos='fade-in'>
                     <div className="content-wrapper">
-					<div className="title homepage-skills-title">
+					<div className="title-dark homepage-skills-title">
                             My Skills
                         </div>
 
@@ -165,7 +165,7 @@ const Homepage = () => {
                     </div>
                     <div className="homepage-articles" data-aos='fade-in' id='articles'>
                     <div className="content-wrapper">
-                    <div className="title homepage-articles-title">
+                    <div className="title-light homepage-articles-title">
                             My Articles
                         </div>
                         <div>

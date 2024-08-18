@@ -51,5 +51,5 @@
     font-size: 0.8rem; /* Adjust size as needed */
     color: #666; /* Adjust color as needed */
     transition: transform 0.3s ease-in-out; /* Added transition for zoom effect */
-    color: var(--secondary-color);
+    color: var(--background-color);
 }

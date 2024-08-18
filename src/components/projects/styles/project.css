@@ -13,6 +13,7 @@
     min-height: 450px; /* Adjust this value based on your needs */
     padding: 15px;
     margin-bottom: 20px; /* Adds space between project entries */
+    box-sizing: border-box; /* Include padding in height/width calculation */
 }
 
 .project a {
@@ -20,7 +21,7 @@
 }
 
 .project:hover {
-	background: #c9dcfdaf;;
+	background: var(--hover-color);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -31,7 +32,8 @@
 }
 
 .project-container {
-	padding: 40px;
+    padding: 20px; /* Adjusted padding for more balanced spacing */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
 }
 
 .project-logo-container {
@@ -48,7 +50,6 @@
     height: 30px; /* Fixed height for consistency */
     overflow: hidden; /* Ensures no overflow */
 }
-
 
 .project-logo img {
 	width: 100%;
@@ -90,8 +91,17 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		min-height: auto; /* Remove fixed minimum height */
+		height: auto; /* Allow height to adjust naturally */
+        padding: 10px; /* Reduce padding for smaller screens */
+		margin-bottom: 10px; /* Reduce margin for closer spacing */
 	}
+
+    .project-img {
+        width: 100%; /* Make image width responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin: 10px auto; /* Adjust margin for smaller screens */
+    }
 }
 
 .project-img {

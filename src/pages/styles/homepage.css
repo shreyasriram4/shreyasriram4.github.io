@@ -7,7 +7,7 @@
     justify-content: left;
     align-items: center;
     padding-top: 80px;
-    background-color: #3589e230;
+    background-color: var(--background-color);
 }
 
 /* Homepage Header */
@@ -50,10 +50,6 @@
 	font-family: 'Pixelify Sans', sans-serif;
 }
 
-/* Content Wrapper */
-.content-wrapper {
-    padding: 0rem 0; /* Ensure separation from header */
-}
 
 
 .homepage-first-area {
@@ -200,7 +196,6 @@
     margin: 0 auto;
     font-size: 2.5rem; /* Adjust the size as needed */
 	padding-top: 70px;
-    padding-bottom: 10px;
 }
 
 .homepage-projects-title {
@@ -237,7 +232,7 @@
 }
 
 #about {
-    background-color: #3589e230; /* White */
+    background-color: var(--background-color); /* White */
     /* padding-left: 700px;
     padding-right: 700px; */
 }
@@ -249,7 +244,7 @@
 }
 
 #projects {
-    background-color: #3589e230; /* White again for contrast */
+    background-color: var(--background-color); /* White again for contrast */
     /* padding-left: 700px;
     padding-right: 700px; */
 }
@@ -261,7 +256,7 @@
 }
 
 #articles {
-    background-color: #3589e230; /* White */
+    background-color: var(--background-color); /* White */
     /* padding-left: 700px;
     padding-right: 700px; */
 }

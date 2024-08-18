@@ -1,18 +1,38 @@
 .works-body {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+    grid-template-columns: repeat(5, 1fr); /* Creates three columns */
     gap: 30px; /* Space between cards */
     width: 100%; /* Adjust if necessary */
     padding: 20px; /* Padding around the grid */
     box-sizing: border-box; /* Includes padding in width calculation */
 }
 
+/* For slightly smaller screens (e.g., iPad size) */
+@media (max-width: 1024px) {
+    .works-body {
+        grid-template-columns: repeat(3, 1fr); /* Two columns for smaller screens */
+        justify-content: center; /* Center the last row if it has fewer items */
+        width: 90%;
+        margin: 0 auto; /* Center the grid on the page */
+    }
+}
+
+/* For phone-sized screens */
+@media (max-width: 600px) {
+    .works-body {
+        grid-template-columns: 1fr; /* One column for phone-sized screens */
+        width: 90%;
+        margin: 0 auto; /* Center the grid on the page */
+    }
+}
+
+
 .work {
     position: relative; /* Needed for positioning the read more absolutely */
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     align-items: center;
-    background-color: #3589e230;
+    background-color: var(--background-color);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -26,7 +46,7 @@
 }
 
 .work:hover {
-    background-color: #c6e3f196;
+    background-color: #335bbed6;
     transform: scale(1.05);
     filter: none; /* No blur on the hovered item */
     z-index: 10; /* Ensure hovered item is above others */
@@ -78,7 +98,7 @@
 
 .work-duration {
     font-size: 12px; /* Consistent font size for subtitle and duration */
-    color: #454e56d6;
+    color: var(--tertiary-color);
     margin-top: 5px;
 }
 
@@ -117,7 +137,19 @@
     width: 100%; /* Adjust if necessary */
     padding: 20px; /* Padding around the grid */
     box-sizing: border-box; /* Includes padding in width calculation */
+    margin: 0 auto; /* Center the grid on the page */
 }
+
+/* For phone-sized screens */
+@media (max-width: 600px) {
+    .edu-body {
+        grid-template-columns: 1fr; /* One column for phone-sized screens */
+        margin: 0 auto; /* Center the grid on the page */
+        justify-content: center; /* Center the last row if it has fewer items */
+        width: 90%;
+    }
+}
+
 
 .edu-body:hover .work:not(:hover) {
     filter: blur(2px); /* Apply blur to all non-hovered .work items */

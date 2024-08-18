@@ -2,31 +2,38 @@
 
 .homepage-article {
     display: flex; /* Aligns children (image and content) in a row */
-    align-items: center; /* Aligns items at the start of the cross axis */
-    width: 100%;
+    align-items: center; /* Keeps the image and text vertically centered */
+    width: 66.67%; /* Occupies 2/3 of the screen */
+    margin: 0 auto; /* Center the article container on the page */
     mix-blend-mode: normal;
     border-radius: 10px;
     opacity: 0.9;
-    margin-bottom: 0px; /* Adds space between articles */
+    margin-bottom: 20px; /* Adds space between articles */
+    transition: background-color 0.3s, opacity 0.3s ease-in-out; /* Smooth transition */
 }
 
 .article-image {
     width: 140px;
     height: 140px;
     object-fit: cover;
-    margin-right: -5px;
-    margin-left: 15px;
+    margin-right: 15px; /* Adjust spacing */
+    margin-left: 20px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
 .homepage-article-content {
     flex-grow: 1; /* Allows the content area to take up remaining space */
     padding: 30px;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
 .homepage-article:hover {
-    background: #c9dcfdaf;
+    background: var(--hover-color);
     opacity: 1;
-    transition: background-color 0.3s, opacity 0.3s ease-in-out;
+}
+
+.homepage-article:hover .article-image {
+    transform: scale(1.05); /* Slightly increase the size of the image on hover */
 }
 
 .homepage-article-date,
@@ -62,23 +69,49 @@
 }
 
 .homepage-article-link a {
-    color: var(--link-color);
+    color: var(--secondary-color);
     text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Smooth transition for link color */
+}
+
+/* This selector targets the link when the article is hovered */
+.homepage-article:hover .homepage-article-link a {
+    color: var(--link-color); /* Change to link-color on hover */
 }
 
 @media (max-width: 600px) {
     .homepage-article {
-        flex-direction: column; /* Stacks image and content vertically on small screens */
-        width: 100%;
-        align-items: center; /* Centers items when stacked */
+        display: flex; /* Aligns children (image and content) in a row */
+        align-items: center; /* Keeps the image and text vertically centered */
+        width: 85%;
+        margin: 0 auto; /* Center the article container on the page */
+        mix-blend-mode: normal;
+        border-radius: 10px;
+        opacity: 0.9;
+        margin-bottom: 20px; /* Adds space between articles */
+        transition: background-color 0.3s, opacity 0.3s ease-in-out; /* Smooth transition */
     }
 
     .article-image {
-        margin-bottom: 10px; /* Adds space between the image and text content */
-        margin-right: 0;
+        width: 100px; /* Reduce image size */
+        height: 100px;
+        margin-right: 10px; /* Adjust spacing */
+        margin-left: 20px;
     }
 
     .homepage-article-content {
-        padding: 20px; /* Adjust padding for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .homepage-article-title {
+        font-size: 16px; /* Keeps title size consistent */
+    }
+
+    .homepage-article-description {
+        font-size: 12px; /* Keeps description readable on smaller screens */
+    }
+
+    .homepage-article-link {
+        font-size: 14px; /* Keeps link text size consistent */
     }
 }
