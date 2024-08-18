@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4f2a2d3.css",
-    "main.js": "/static/js/main.a22dec19.js",
+    "main.css": "/static/css/main.495e58f6.css",
+    "main.js": "/static/js/main.b15bf165.js",
     "static/js/787.aed15d30.chunk.js": "/static/js/787.aed15d30.chunk.js",
     "static/media/customer.jpg": "/static/media/customer.e6766e2757ddd95a02a6.jpg",
     "static/media/homepage.jpg": "/static/media/homepage.e52d1b816dc3dde17520.jpg",
@@ -9,7 +9,7 @@
     "static/media/minitorch.png": "/static/media/minitorch.67ac39f169c5ba7820a1.png",
     "static/media/food.jpg": "/static/media/food.e436188202d8fe96746a.jpg",
     "static/media/nus.png": "/static/media/nus.e6ba970d35937d9107fd.png",
-    "static/media/hp.png": "/static/media/hp.bdcbc32eca10c7852a5e.png",
+    "static/media/hp.png": "/static/media/hp.2bcdadf8f92354fd96f8.png",
     "static/media/workplace.jpg": "/static/media/workplace.85ae5f4ab7c0205dc1de.jpg",
     "static/media/r.png": "/static/media/r.e5633d22cd7cb6610c4f.png",
     "static/media/logo.png": "/static/media/logo.11871a62aaf0319d21a5.png",
@@ -35,12 +35,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.f4f2a2d3.css.map": "/static/css/main.f4f2a2d3.css.map",
-    "main.a22dec19.js.map": "/static/js/main.a22dec19.js.map",
+    "main.495e58f6.css.map": "/static/css/main.495e58f6.css.map",
+    "main.b15bf165.js.map": "/static/js/main.b15bf165.js.map",
     "787.aed15d30.chunk.js.map": "/static/js/787.aed15d30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4f2a2d3.css",
-    "static/js/main.a22dec19.js"
+    "static/css/main.495e58f6.css",
+    "static/js/main.b15bf165.js"
   ]
 }
