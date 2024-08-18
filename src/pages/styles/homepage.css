@@ -228,10 +228,10 @@
 .content-wrapper-works {
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 #about {
+    padding-top: 60px;
     background-color: var(--background-color); /* White */
     /* padding-left: 700px;
     padding-right: 700px; */

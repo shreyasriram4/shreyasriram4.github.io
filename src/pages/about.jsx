@@ -1,15 +1,9 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
-import Socials from "../components/about/socials";
 import aboutImg from "../images/homepage.jpg";
 import INFO from "../data/user";
-import SEO from "../data/seo";
-
 import "./styles/about.css";
 
 const About = () => {
@@ -28,15 +22,12 @@ const About = () => {
 
     return (
         <div className="about-container" data-aos="fade-in">
-
             <div className="about-main">
                 <div className="about-right-side">
-
                     <div className="subtitle about-subtitle">
                         {paragraphs}
                     </div>
                 </div>
-
                 <div className="about-left-side">
                     <div className="about-image-container">
                         <div className="about-image-wrapper">
@@ -47,8 +38,6 @@ const About = () => {
                             />
                         </div>
                     </div>
-
-                    
                 </div>
             </div>
         </div>
@@ -56,5 +45,3 @@ const About = () => {
 };
 
 export default About;
-
-
