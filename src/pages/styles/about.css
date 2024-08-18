@@ -173,7 +173,7 @@
 
 @media (max-width: 600px) {
     .about-container {
-        padding-top: 30px;
+        padding-top: 0px;
         width: 100%; /* Occupies full width on very small screens */
     }
 
